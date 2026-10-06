@@ -1,0 +1,19 @@
+{
+  "name": "assessment/bikerental",
+  "description": "Professional Bike Rental System with Modern Architecture",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "App\\Controllers\\": "app/Controllers/",
+      "App\\Services\\": "app/Services/",
+      "App\\Repositories\\": "app/Repositories/",
+      "App\\Interfaces\\": "app/Interfaces/",
+      "App\\Models\\": "app/Models/",
+      "App\\Enums\\": "app/Enums/",
+      "App\\Core\\": "app/Core/",
+      "App\\Helpers\\": "app/Helpers/"
+    }
+  }
+}
